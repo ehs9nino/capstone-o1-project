@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+::before * ::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #555;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.top {
+  max-width: 640px;
+  text-align: center;
+  margin: auto;
+  background-image: url(../imgs/mobile-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome-content {
+  padding: 200px 20px 75px 20px;
+  text-align: left;
+}
+
+.welcome-content-h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ff4f38;
+}
+
+.welcome-content-h1 {
+  font-weight: 900;
+  font-size: 30px;
+  background-image: url(../imgs/backgrounds/welcome-prism-bg.png);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.paragraph {
+  margin: 22px 0 22px 0;
+  padding: 16px;
+  background-color: #f7f7f7;
+  border: 2px solid white;
+}
+
+.paragraph p {
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 12px;
+}
+
+.welcome-content > h3 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.welcome-content > h4 {
+  font-size: 14px;
+}
+
+span {
+  display: block;
+}
