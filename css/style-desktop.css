@@ -168,8 +168,8 @@ nav {
 
 .welcome-content {
   width: 100%;
-  max-width: 1036px;
-  padding: 125px 30px 165px 30px;
+  max-width: 650px;
+  padding: 125px 0 165px 115px;
 }
 
 .welcome-content-h2 {
@@ -196,4 +196,73 @@ nav {
 .welcome-content > h4 {
   font-size: 22px;
   font-weight: 500;
+}
+
+.main-programme {
+  background-image: url(../imgs/backgrounds/crosspattern.svg);
+  max-width: 1440px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+}
+
+.main-programme-content {
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-bottom: 40px;
+}
+
+.main-button {
+  display: none;
+}
+
+.main-programme-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.line1 {
+  width: 55px;
+}
+
+.programme-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+}
+
+.programme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  margin-bottom: 0;
+}
+
+.programme-card > * {
+  width: auto;
+}
+
+.programme-card > h4 {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.programme-card > p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.see-programme {
+  display: block;
+  margin-top: 70px;
+  color: #f7f7f7;
 }
