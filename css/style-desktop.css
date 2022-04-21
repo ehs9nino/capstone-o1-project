@@ -266,3 +266,46 @@ nav {
   margin-top: 70px;
   color: #f7f7f7;
 }
+
+/* Speakers Section */
+
+.featured-speakers {
+  max-width: 1440px;
+}
+
+.speaker-contents {
+  padding: 0 30px 95px 30px;
+}
+
+.speaker-contents h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.speaker-contents .line1 {
+  margin-bottom: 50px;
+}
+
+.speaker-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 27px;
+  margin: auto;
+}
+
+.speaker-card h4 {
+  font-size: 22px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.speaker-card h5 {
+  font-size: 12px;
+  line-height: 1.7em;
+}
+
+.featured-speaker-button {
+  display: none;
+}

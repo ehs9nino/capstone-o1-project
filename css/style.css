@@ -207,6 +207,10 @@ span {
   flex-direction: column;
 }
 
+.speaker-info h5 {
+  color: #ec5242;
+}
+
 .featured-speaker-button {
   padding-top: 15px;
   padding-bottom: 15px;
