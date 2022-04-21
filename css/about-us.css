@@ -132,6 +132,10 @@ nav {
   color: #d3d3d3;
 }
 
+.top-menu {
+  display: none;
+}
+
 .desktop-menu {
   display: none;
 }
