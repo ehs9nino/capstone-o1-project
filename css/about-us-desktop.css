@@ -201,3 +201,137 @@ nav {
   font-size: 22px;
   font-weight: 500;
 }
+
+/* Partner's Section */
+.partners {
+  display: none;
+}
+
+.partners-content {
+  padding: 0 30px 62px 30px;
+}
+
+.partners-content > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.partners-content .line1 {
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.partners-logos {
+  width: 100%;
+  max-width: 858px;
+  max-width: inherit;
+  gap: 30px;
+}
+
+/* footer */
+footer {
+  display: block;
+  background-color: #272a31;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.footer-content {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  justify-self: right;
+  height: auto;
+  max-height: 80px;
+  width: auto;
+}
+
+.footer-rights {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* main section logo */
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-content .line1 {
+  width: 24px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.main-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-content p {
+  font-size: 16px;
+  max-width: 768px;
+}
+
+.main-image {
+  height: 400px;
+}
+
+.main-image img {
+  margin: auto;
+  padding: 0;
+  width: auto;
+  padding-top: 100px;
+  max-width: max-content;
+}
+
+/* Events */
+.upcoming-events {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.upcoming-events-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.upcoming-events-content .line1 {
+  width: 24px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.upcoming-events-content p {
+  font-size: 16px;
+  width: 100%;
+  max-width: 640px;
+  margin: auto;
+}
+
+.event-cards {
+  display: grid;
+  justify-content: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(2, minmax(300px, 400px));
+  gap: 25px;
+  margin-top: 68px;
+  margin-bottom: 115px;
+}
+
+.event-card1 h4 {
+  margin: 0;
+}

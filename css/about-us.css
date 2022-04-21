@@ -234,6 +234,7 @@ nav {
 .event-card-bg1 {
   background-image: url(../imgs/backgrounds/Sydney.jpg);
   text-align: center;
+  margin: 22px 0 22px 0;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

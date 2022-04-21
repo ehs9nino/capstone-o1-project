@@ -309,3 +309,55 @@ nav {
 .featured-speaker-button {
   display: none;
 }
+
+/* Partner's Section */
+.partners {
+  display: block;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.partners-content {
+  padding: 0 30px 62px 30px;
+}
+
+.partners-content > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.partners-content .line1 {
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.partners-logos {
+  width: 100%;
+  max-width: 858px;
+  max-width: inherit;
+  gap: 30px;
+}
+
+/* footer */
+footer {
+  display: block;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.footer-content {
+  justify-content: space-around;
+}
+
+.footer-logo {
+  height: auto;
+  max-height: 80px;
+  width: auto;
+}
+
+.footer-rights {
+  font-size: 16px;
+  font-weight: 600;
+}
