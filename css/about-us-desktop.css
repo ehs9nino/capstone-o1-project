@@ -152,3 +152,52 @@ nav {
 .list-menu a:hover {
   color: #ff4f38;
 }
+
+/* Top Section */
+
+.top {
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+  margin: auto;
+  background-image: url(../imgs/backgrounds/bg-welcome.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome-content {
+  margin: auto;
+  width: 100%;
+  max-width: 1036px;
+  padding: 125px 30px 165px 30px;
+}
+
+.welcome-content-h2 {
+  margin: auto;
+  font-size: 40px;
+}
+
+.welcome-content-h1 {
+  margin: auto;
+  max-width: 800px;
+  font-size: 70px;
+}
+
+.paragraph1 {
+  margin: auto;
+  max-width: 630px;
+}
+
+.paragraph1 p {
+  font-size: 15px;
+}
+
+.paragraph2 {
+  font-size: 16px;
+}
+
+.paragraph3 {
+  font-size: 22px;
+  font-weight: 500;
+}
