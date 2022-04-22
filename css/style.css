@@ -189,6 +189,10 @@ span {
   margin: auto;
 }
 
+.speaker-img {
+  align-self: center;
+}
+
 .speaker-img > img {
   width: 100%;
 }

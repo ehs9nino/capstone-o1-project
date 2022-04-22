@@ -247,6 +247,10 @@ nav {
   width: auto;
 }
 
+.programme-card img {
+  max-width: 64px;
+}
+
 .programme-card > h4 {
   font-size: 20px;
   width: 100%;
