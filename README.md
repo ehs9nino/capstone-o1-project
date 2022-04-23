@@ -1,62 +1,57 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Space Tourism Conference
 
-> Description the project.
+> Hello & welcome to my Microverse's first Capstone project, a Space Tourism Conference April 2022.  In this project, we are given with a [template design] (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and we are tasked to make an (almost) identical copy of the design with modifications by adding our own content - which in my case is Space Tourism Conference!
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+:fire::fire:fire: [Live Demo Link](https://ehs9nino.github.io/capstone-o1-project/) :fire::fire:
 
+## Project Documentation
+
+- [x] Here is the loom video [link](https://www.loom.com/share/53a79428a4794b64b8bb91dddaee7799)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+You can have a copy of this repo run on your local machine by just directly cloning it. However, you need to follow these simple steps to make sure you have the same linters set up.**
 
 ### Prerequisites
 
+- Node.js installed
+- npm installed
+- Linters: Lighthouse, Webhint, Stylelint, ESLint
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+The Linters that we are using here are Lighthouse, Webhint, Stylelint, and ESLint. [This documentation here] (https://github.com/microverseinc/linters-config/tree/master/html-css-js) shows you in great details how to set them up properly on you local machine.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Ehsan Qader**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ehs9nino)
+- Twitter: [@twitterhandle](https://twitter.com/ehsan9nino)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ehsan-qader-a230a6165/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
+
+- Original design idea by [Cindy Shin in Behance]
+(https://www.behance.net/adagio07).
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
 
 ## Show your support
 
@@ -64,10 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- [Microverse] (https://www.microverse.org/)
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.

@@ -211,6 +211,7 @@ span {
 }
 
 .featured-speaker-button {
+  display: none;
   padding-top: 15px;
   padding-bottom: 15px;
   max-width: 596px;
@@ -278,7 +279,7 @@ nav {
 /* Partner's */
 
 .partners {
-  display: none;
+  display: block;
   background-color: #272a31;
   max-width: 640px;
   margin: auto;
@@ -313,7 +314,7 @@ nav {
 /* footer */
 
 footer {
-  display: none;
+  display: block;
   max-width: 640px;
   margin: auto;
 }

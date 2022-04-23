@@ -7,6 +7,8 @@ function displayContent() {
     document.querySelector('.top').style.display = 'none';
     document.querySelector('.main-programme').style.display = 'none';
     document.querySelector('.featured-speakers').style.display = 'none';
+    document.querySelector('footer').style.display = 'none';
+    document.querySelector('.partners').style.display = 'none';
     document.querySelector('.desktop-menu').style.display = 'block';
   } else {
     // If desktop
@@ -22,6 +24,8 @@ function closeMenu() {
     document.querySelector('.main-programme').style.display = 'block';
     document.querySelector('.featured-speakers').style.display = 'block';
     document.querySelector('.mobile-menu-open').style.display = 'block';
+    document.querySelector('footer').style.display = 'block';
+    document.querySelector('.partners').style.display = 'block';
   } else {
     // If desktop
     document.querySelector('.mobile-menu-open').style.display = 'none';
