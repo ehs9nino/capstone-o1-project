@@ -50,42 +50,42 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // 1.1. Speaker data
 const speakers = [{
-  imageUrl: 'imgs/avatar/1.jpg',
+  imageUrl: 'imgs/avatar/1.png',
   imageAlt: 'John Spenser\'s portrait',
   name: 'John Spenser',
   occupation: 'Co-founder & Chairman Founder, Space Tourism Society',
   detail: 'John is a pioneering outer space architect and the recipient of design awards from NASA for his work on the International Space Station (ISS).',
 },
 {
-  imageUrl: 'imgs/avatar/2.jpeg',
+  imageUrl: 'imgs/avatar/2.png',
   imageAlt: 'Jane Poynter\'s portrait',
   name: 'Jane Poynter',
   occupation: 'Founder & Co-CEO, Space Perspective',
   detail: 'Jane Poynter is an American aerospace executive, author and speaker. She is founder, co-CEO and CXO of Space Perspective, a luxury space travel company.',
 },
 {
-  imageUrl: 'imgs/avatar/3.jpeg',
+  imageUrl: 'imgs/avatar/3.png',
   imageAlt: 'Barbara Belvise\'s portrait',
   name: 'Barbara Belvisi',
   occupation: 'CEO, Interstellar Lab',
   detail: 'Founder and CEO of Interstellar Lab. Barbara is an entrepreneur and investor, passionate about science, space and AI.',
 },
 {
-  imageUrl: 'imgs/avatar/4.jpg',
+  imageUrl: 'imgs/avatar/4.png',
   imageAlt: 'Marie-Lise Baron\'s portrait',
   name: 'Marie-Lise Baron',
   occupation: 'Founder & Private Jet Senior Interior Designer, The Baron Institute',
   detail: 'Marie-Lise Baron is a French-Canadian designer renowned for her unique aeronautical, exclusive signature, commercial and residential design projects. She graduated after specific private classical studies in Quebec City and Montreal, Canada.',
 },
 {
-  imageUrl: 'imgs/avatar/5.jpeg',
+  imageUrl: 'imgs/avatar/5.png',
   imageAlt: 'John Weathersby\'s portrait',
   name: 'John Weathersby',
   occupation: 'Founder & Executive Director,StellarModal Transportation',
   detail: 'John is a founder of StellarModal Transportation Association is an international trade association which represents commercial providers of infrastructure, transportation and supply chain solutions for the commercial space industry.',
 },
 {
-  imageUrl: 'imgs/avatar/6.jpeg',
+  imageUrl: 'imgs/avatar/6.png',
   imageAlt: 'Scott Lewers\'s portrait',
   name: 'Scott Lewers',
   occupation: 'Executive Vice President of Multiplatform Programming and Head of Science Channel Content, Discovery Communications',
