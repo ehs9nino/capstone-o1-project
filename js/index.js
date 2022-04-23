@@ -1,27 +1,26 @@
 function displayContent() {
-  document.querySelector('.mobile-menu-open').style.display = 'none';
-  document.querySelector('.desktop-menu a').style.display = 'none';
-  document.querySelector('.top').style.display = 'none';
-  document.querySelector('.main-programme').style.display = 'none';
-  document.querySelector('.featured-speakers').style.display = 'none';
   if (window.innerWidth < 768) {
     // If mobile
+    document.querySelector('.mobile-menu-open').style.display = 'none';
     document.querySelector('.mobile-menu-close').style.display = 'block';
+    document.querySelector('.desktop-menu a').style.display = 'none';
+    document.querySelector('.top').style.display = 'none';
+    document.querySelector('.main-programme').style.display = 'none';
+    document.querySelector('.featured-speakers').style.display = 'none';
     document.querySelector('.desktop-menu').style.display = 'block';
   } else {
     // If desktop
     document.querySelector('.mobile-menu-close').style.display = 'none';
-    document.querySelector('.desktop-menu').style.display = 'none';
   }
 }
 function closeMenu() {
-  document.querySelector('.desktop-menu').style.display = 'none';
-  document.querySelector('.mobile-menu-close').style.display = 'none';
-  document.querySelector('.top').style.display = 'block';
-  document.querySelector('.main-programme').style.display = 'block';
-  document.querySelector('.featured-speakers').style.display = 'block';
   if (window.innerWidth < 768) {
     // If mobile
+    document.querySelector('.desktop-menu').style.display = 'none';
+    document.querySelector('.mobile-menu-close').style.display = 'none';
+    document.querySelector('.top').style.display = 'block';
+    document.querySelector('.main-programme').style.display = 'block';
+    document.querySelector('.featured-speakers').style.display = 'block';
     document.querySelector('.mobile-menu-open').style.display = 'block';
   } else {
     // If desktop

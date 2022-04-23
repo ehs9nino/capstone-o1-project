@@ -102,6 +102,7 @@ nav {
 }
 
 .top-menu {
+  top: 0%;
   display: flex;
   justify-content: end;
   background-color: #272a31;
